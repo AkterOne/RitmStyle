@@ -2,25 +2,25 @@
     font-family: "ProximaNova";
     font-style: normal;
     font-weight: 300;
-    src: url(../fonts/ProximaNova-Light.ttf);
+    src: url(../Font/ProximaNova-Light.ttf);
 }
 @font-face {
     font-family: "ProximaNova";
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/ProximaNova-Regular.ttf);
+    src: url(../font/ProximaNova-Regular.ttf);
 }    
 @font-face {
     font-family: "ProximaNova";
     font-style: normal;
     font-weight: 600;
-    src: url(../fonts/ProximaNova-Semibold.ttf);
+    src: url(../font/ProximaNova-Semibold.ttf);
 }
 @font-face {
     font-family: "ProximaNova";
     font-style: normal;
     font-weight: 700;
-    src: url(../fonts/ProximaNova-Bold.ttf);
+    src: url(../font/ProximaNova-Bold.ttf);
 }
 body{
     background-color: #162831;
@@ -82,7 +82,7 @@ a{
     font-family: 'El Messiri', sans-serif;
     font-weight: 700;
     margin-top: 41px;
-    background-image: url(../img/aquatherapy.jpg);
+    background-image: url(../image/aquatherapy.jpg);
     border-radius: 10px;
     padding: 146px 354px 210px 355px;
     text-align: center;
@@ -98,7 +98,7 @@ a{
     letter-spacing: -0.068px;
 }
 .wrap h3::before{
-    background-image: url(../img/Rectangle3.png);
+    background-image: url(../image/Rectangle3.png);
     position: absolute;
     content: "";
     left: 79px;
@@ -107,7 +107,7 @@ a{
     height: 14px;
 }
 .wrap h3::after{
-    background-image: url(../img/Rectangle5.png);
+    background-image: url(../image/Rectangle5.png);
     position: absolute;
     content: "";
     top: 9px;
@@ -136,7 +136,7 @@ a{
     margin-bottom: 100px;
 }
 .header-text::before{
-    background-image: url(../img/RectangleBlue1.png);
+    background-image: url(../image/RectangleBlue1.png);
     position: absolute;
     content: "";
     left: 407px;
@@ -145,7 +145,7 @@ a{
     height: 14px;
 }
 .header-text::after{
-    background-image: url(../img/RectangleBlue2.png);
+    background-image: url(../image/RectangleBlue2.png);
     position: absolute;
     content: "";
     top: 22px;
@@ -224,7 +224,7 @@ a{
     margin-bottom: 100px;
 }
 .reviews-header::before{
-    background-image: url(../img/RectangleBlue1.png);
+    background-image: url(../image/RectangleBlue1.png);
     position: absolute;
     content: "";
     left: 717px;
@@ -233,7 +233,7 @@ a{
     height: 14px;
 }
 .reviews-header::after{
-    background-image: url(../img/RectangleBlue2.png);
+    background-image: url(../image/RectangleBlue2.png);
     position: absolute;
     content: "";
     top: 22px;
@@ -317,13 +317,13 @@ a{
     margin-right: 20px;
 }
 .inactive{
-    background-image: url(../img/inactive.png);
+    background-image: url(../image/inactive.png);
     width: 16px;
     height: 16px;
 
 }
 .active{
-    background-image: url(../img/active.png);
+    background-image: url(../image/active.png);
     width: 16px;
     height: 16px;
 }
@@ -432,7 +432,7 @@ a{
     letter-spacing: -0.02px;    
 }
 .grid-price-list-name li::before {
-    background-image: url(../img/RectangleBlue1.png);
+    background-image: url(../image/RectangleBlue1.png);
     background-repeat: no-repeat;
     background-size: 18px 9px;
     position: absolute;
@@ -522,7 +522,7 @@ a{
     position: relative;
 }
 .address::before {
-    background-image: url(../img/marker.png);
+    background-image: url(../image/marker.png);
     background-repeat: no-repeat;
     background-size: 20px 20px;
     position: absolute;
@@ -536,7 +536,7 @@ a{
     position: relative;
 }
 .underground::before {
-    background-image: url(../img/metro.png);
+    background-image: url(../image/metro.png);
     background-repeat: no-repeat;
     background-size: 20px 16px;
     position: absolute;
@@ -550,7 +550,7 @@ a{
     position: relative;
 }
 .record::before{
-    background-image: url(../img/calendar.png);
+    background-image: url(../image/calendar.png);
     background-repeat: no-repeat;
     background-size: 20px 20px;
     position: absolute;
