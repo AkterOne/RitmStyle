@@ -2,25 +2,25 @@
     font-family: "ProximaNova";
     font-style: normal;
     font-weight: 300;
-    src: url(../font/ProximaNova-Light.ttf);
+    src: url(../fonts/ProximaNova-Light.ttf);
 }
 @font-face {
     font-family: "ProximaNova";
     font-style: normal;
     font-weight: 400;
-    src: url(../font/ProximaNova-Regular.ttf);
+    src: url(../fonts/ProximaNova-Regular.ttf);
 }    
 @font-face {
     font-family: "ProximaNova";
     font-style: normal;
     font-weight: 600;
-    src: url(../font/ProximaNova-Semibold.ttf);
+    src: url(../fonts/ProximaNova-Semibold.ttf);
 }
 @font-face {
     font-family: "ProximaNova";
     font-style: normal;
     font-weight: 700;
-    src: url(../font/ProximaNova-Bold.ttf);
+    src: url(../fonts/ProximaNova-Bold.ttf);
 }
 body{
     background-color: #162831;
