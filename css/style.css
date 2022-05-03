@@ -1,8 +1,10 @@
+
+/*------Шрифты------*/
 @font-face {
     font-family: "ProximaNova";
     font-style: normal;
     font-weight: 300;
-    src: url(../font/ProximaNova-light.ttf);
+    src: url(../Font/ProximaNova-Light.ttf);
 }
 @font-face {
     font-family: "ProximaNova";
@@ -22,19 +24,23 @@
     font-weight: 700;
     src: url(../font/ProximaNova-Bold.ttf);
 }
+
+
 body{
     background-color: #162831;
     font-family: 'El Messiri', sans-serif;
     color: #FFFFFF;
-    
+    width: 100%;
 }
 .width{
     width: 1298px;
     margin-bottom: 128px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .header{
-    margin-top: 30px;
+    margin-top: 2.33%;
 }
 .container{
     align-items: center;
@@ -81,12 +87,14 @@ a{
 .wrap{
     font-family: 'El Messiri', sans-serif;
     font-weight: 700;
-    margin-top: 41px;
+    margin-top: 3.159%;
     background-image: url(../image/aquatherapy.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     border-radius: 10px;
     padding: 146px 354px 210px 355px;
     text-align: center;
-    width: 587px;
+    max-width: 100%;
     height: 244px;
 }
 .wrap h3{
@@ -128,12 +136,12 @@ a{
 }
 .header-text{
     position: relative;
-    margin-top: 150px;
+    margin-top: 11.557%;
     font-weight: 700;
     font-size: 42px;
     line-height: 58.8px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 7.705%;
 }
 .header-text::before{
     background-image: url(../image/RectangleBlue1.png);
@@ -154,7 +162,7 @@ a{
     height: 14px;
 }
 .sessions{
-    margin-bottom: 128px;
+    margin-bottom: 9.862%;
 }
 .grid{
     display: grid;
@@ -211,8 +219,20 @@ a{
     top: 137px;
 }
 .reviews{
+    margin-left: -218px;
+    padding: 0;
+    margin-right: 0px;
     width: 1736px;
-    margin: 0 auto;
+}
+.reviews-container{
+    /* position: relative; */
+}
+.reviews-position{
+    /* position: absolute; */
+    /* left: -218px; */
+    /* right: 220px; */
+    /* top: -55px; */
+    /* margin-left: -85px; */
 }
 .reviews-header{
     font-family: 'El Messiri', sans-serif;
@@ -227,8 +247,8 @@ a{
     background-image: url(../image/RectangleBlue1.png);
     position: absolute;
     content: "";
-    left: 717px;
-    top: 22px;
+    left: 718px;
+    top: 21px;
     width: 28px;
     height: 14px;
 }
@@ -236,7 +256,7 @@ a{
     background-image: url(../image/RectangleBlue2.png);
     position: absolute;
     content: "";
-    top: 22px;
+    top: 21px;
     right: 719px;
     width: 28px;
     height: 14px;
@@ -271,17 +291,18 @@ a{
     letter-spacing: -0.056px;
 }
 .reviews-block-1{
-    padding: 25px 45px 62px 46px;
+    padding: 25px 45px 62px 45px;
     margin-left: -2px;
 }
 .reviews-block-2{
     width: 516px;
     margin: 0 auto;
-    margin-left: 51px;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
     left: 1px;
     background-color: #018ABE;
     padding: 30px 60px 43px 60px;
-    border-radius: 11px;
+    border-radius: 10px;
 }
 .reviews-block-2 h3{
     font-family: "ProximaNova", sans-serif;
@@ -299,14 +320,14 @@ a{
     letter-spacing: -0.08px;
 }
 .reviews-block-3{
-    padding: 24px 45px 48px 46px;
+    padding: 24px 45px 48px 45px;
 }
 .reviews-block-3 p{
     letter-spacing: -0.08px;
 }
 .review-slider-box{
-    margin-top: 60px;
-    margin-right: 21px;
+    margin-top: 59px;
+    margin-right: 20px;
 }
 .slider-box{
     display: flex;
