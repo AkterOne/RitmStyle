@@ -1,0 +1,624 @@
+/*------Шрифты------*/
+@font-face {
+    font-family: "ProximaNova";
+    font-style: normal;
+    font-weight: 300;
+    src: url(../Font/light.ttf);
+}
+@font-face {
+    font-family: "ProximaNova";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/regular.ttf);
+}    
+@font-face {
+    font-family: "ProximaNova";
+    font-style: normal;
+    font-weight: 600;
+    src: url(../font/semibold.ttf);
+}
+@font-face {
+    font-family: "ProximaNova";
+    font-style: normal;
+    font-weight: 700;
+    src: url(../font/bold.ttf);
+}
+
+
+body{
+    background-color: #162831;
+    font-family: 'El Messiri', sans-serif;
+    color: #FFFFFF;
+    width: 100%;
+}
+.width{
+    width: 1298px;
+    margin-bottom: 128px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header{
+    margin-top: 2.33%;
+}
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0px 0px 7px 5px
+}
+.menu-li{
+    color: #FFFFFF;
+    font-family: 'ProximaNova', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 18.9px;
+    margin-left: 49px;
+    letter-spacing: 0.2942px
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.btn{
+    height: 0px;
+    font-family: 'ProximaNova', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18.2px;
+    background-color: #018ABE;
+    border-radius: 3px;
+    padding: 9px 17px 27px 16px;
+    letter-spacing: 0.12px;
+    margin-left: 54px;
+    margin-top: -8px;
+    margin-right: -1px;
+}
+.img{
+    border-radius: 10px;
+}
+.wrap{
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    margin-top: 3.159%;
+    background-image: url(../image/aquatherapy.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 146px 354px 210px 355px;
+    text-align: center;
+    max-width: 100%;
+    height: 244px;
+}
+.wrap h3{
+    position: relative;
+    font-size: 24px;
+    line-height: 33.6px;
+    margin-top: -9px;
+    margin-bottom: 57px;
+    letter-spacing: -0.068px;
+}
+.wrap h3::before{
+    background-image: url(../image/Rectangle3.png);
+    position: absolute;
+    content: "";
+    left: 79px;
+    top: 9px;
+    width: 28px;
+    height: 14px;
+}
+.wrap h3::after{
+    background-image: url(../image/Rectangle5.png);
+    position: absolute;
+    content: "";
+    top: 9px;
+    right: 79px;
+    width: 28px;
+    height: 14px;
+    
+}
+.wrap h1{
+    font-size: 64px;
+    line-height: 89.6px;
+    margin: -16px;
+    margin-right: -18px;
+}
+.wrap h1 span{
+    margin-left: -17px;
+    letter-spacing: -0.15px;
+}
+.header-text{
+    position: relative;
+    margin-top: 11.557%;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 58.8px;
+    text-align: center;
+    margin-bottom: 7.705%;
+}
+.header-text::before{
+    background-image: url(../image/RectangleBlue1.png);
+    position: absolute;
+    content: "";
+    left: 407px;
+    top: 22px;
+    width: 28px;
+    height: 14px;
+}
+.header-text::after{
+    background-image: url(../image/RectangleBlue2.png);
+    position: absolute;
+    content: "";
+    top: 22px;
+    right: 409px;
+    width: 28px;
+    height: 14px;
+}
+.sessions{
+    margin-bottom: 9.862%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.grid-item{
+    position: relative;
+    margin-bottom: 14px;
+    margin-right: 24px;
+    align-content:space-between;
+}
+.grid-box img{
+    border-radius: 11px;
+}
+.grid-item-standart{
+    position: relative;
+    margin-right: 24px;
+    padding: 0;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.hidden{
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 11px;
+}
+.grid-box img{
+    display: block;
+    overflow: hidden;
+    transition: 1s;
+}
+.grid-box img:hover{
+    transform: scale(1.2);
+}
+.grid-item-standart p{
+    position: absolute;
+    top: 432px;
+    left: 51px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33.6px;
+}
+.sessions-name{
+    position: absolute;
+    top: 171px;
+    left: 41px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33.6px;
+}
+.other-name{
+    left: 41px;
+    top: 137px;
+}
+.reviews{
+    margin-left: -218px;
+    padding: 0;
+    margin-right: 0px;
+    width: 1736px;
+}
+.reviews-container{
+    /* position: relative; */
+}
+.reviews-position{
+    /* position: absolute; */
+    /* left: -218px; */
+    /* right: 220px; */
+    /* top: -55px; */
+    /* margin-left: -85px; */
+}
+.reviews-header{
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 58.8px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+.reviews-header::before{
+    background-image: url(../image/RectangleBlue1.png);
+    position: absolute;
+    content: "";
+    left: 718px;
+    top: 21px;
+    width: 28px;
+    height: 14px;
+}
+.reviews-header::after{
+    background-image: url(../image/RectangleBlue2.png);
+    position: absolute;
+    content: "";
+    top: 21px;
+    right: 719px;
+    width: 28px;
+    height: 14px;
+}
+.reviews-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block-in-shadow{
+    width: 410px;
+    margin: 0 auto;
+    margin-right: 0px;
+    opacity: 0.4;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: #018ABE;
+    border-radius: 11px;
+}
+.block-in-shadow h3{
+    font-family: "ProximaNova", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 0px;
+    
+}
+.block-in-shadow p{
+    font-family: "ProximaNova", sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: -0.056px;
+}
+.reviews-block-1{
+    padding: 25px 45px 62px 45px;
+    margin-left: -2px;
+}
+.reviews-block-2{
+    width: 516px;
+    margin: 0 auto;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+    left: 1px;
+    background-color: #018ABE;
+    padding: 30px 60px 43px 60px;
+    border-radius: 10px;
+}
+.reviews-block-2 h3{
+    font-family: "ProximaNova", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+    
+}
+.reviews-block-2 p{
+    font-family: "ProximaNova", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19.6px;
+    letter-spacing: -0.08px;
+}
+.reviews-block-3{
+    padding: 24px 45px 48px 45px;
+}
+.reviews-block-3 p{
+    letter-spacing: -0.08px;
+}
+.review-slider-box{
+    margin-top: 59px;
+    margin-right: 20px;
+}
+.slider-box{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.slider-box li{
+    margin-right: 20px;
+}
+.inactive{
+    background-image: url(../image/inactive.png);
+    width: 16px;
+    height: 16px;
+
+}
+.active{
+    background-image: url(../image/active.png);
+    width: 16px;
+    height: 16px;
+}
+.about .header-text::before{
+    left: 454px;
+    top: 21px;
+}
+.about .header-text::after{
+    right: 455px;
+    top: 21px;
+}
+.grid-about{
+    width: 1076px;
+    height: 865px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.grid-about-img img{
+    border-radius: 11px;
+}
+.grid-about-text h3{
+    font-family: "ProximaNova", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33.6px;
+}
+.grid-about-text p{
+    width: 466px;
+    font-family: "ProximaNova", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21.5px
+}
+.grid-about-item-1{
+    margin-top: 43px;
+}
+.grid-about-item-1 p{
+    margin-top: 30.2px;
+    letter-spacing: 0.116px; 
+}
+.grid-about-item-2{
+    margin-left: 11px;
+
+}
+.grid-about-item-3{
+    margin-top: 91px;
+    margin-left: -1px;
+}
+.grid-about-item-4{
+    margin-top: 85px;
+    margin-left: 71px
+}
+.grid-about-item-4 h3{
+    letter-spacing: 0.11px;
+    margin-bottom: 32px;
+}
+.grid-about-item-4 p{
+    letter-spacing: 0.09px;
+}
+.price .header-text::before{
+    left: 389px;
+    top: 22px;
+}
+.price .header-text::after{
+    right: 391px;
+    top: 22px;
+}
+.grid-price{
+    width: 1076px;
+    height: 455px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: -2px;
+}
+.grid-price-list{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    align-items: center;
+    margin-top: -14px;
+}
+
+.grid-price-list ul{
+    margin-right: -97px;
+}
+.grid-price-list li{
+    width: 378px;
+    list-style: none;
+    margin-bottom: 31px;
+    padding: 0;
+}
+.grid-price-list-name li{
+    position: relative;
+    font-family: "ProximaNova", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25.2px;
+    margin-left: -3px;
+    margin-top: 24px;
+    letter-spacing: -0.02px;    
+}
+.grid-price-list-name li::before {
+    background-image: url(../image/RectangleBlue1.png);
+    background-repeat: no-repeat;
+    background-size: 18px 9px;
+    position: absolute;
+    content: "";
+    left: -38px;
+    top: 9px;
+    width: 18px;
+    height: 9px;
+}
+.grid-price-list-name li span{
+    letter-spacing: 0.2px;
+    margin-left: -1.5px;
+}
+.grid-price-list-price{
+    margin-left: -23px;
+    margin-top: 46px;
+}
+.grid-price-list-price li{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25.2px;
+    text-align: right;
+    width: 80px;
+}
+.grid-price-img{
+    margin-left: 11px;
+    margin-top: 2px;
+}
+.grid-price-img img{
+    border-radius: 11px;
+}
+.grid-price-name{
+    margin-left: 11px;
+}
+.grid-price-name p{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 29.4px;
+    text-align: center;
+}
+.contacts{
+    width: 1296px;
+    margin: 0 auto;
+    margin-top: 152px;
+    margin-left: 0px;
+}
+.grid-contacts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.grid-map{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.grid-map img{
+    border-radius: 11px;
+}
+.grid-contacts-text {
+    margin-left: 48px;
+    background-color: #018ABE;
+    background-size: 392px 290px;
+    padding: 12px 45px 40px 46px;
+    border-radius: 11px;
+}
+.grid-contacts-text h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33.6px;
+    margin-bottom: 21px;
+}
+.grid-contacts-text ul{
+    margin-bottom: 36px;
+}
+.grid-contacts-text li{
+    position: relative;
+    font-family: "ProximaNova", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.9px;
+    list-style: none;
+    margin-bottom: 21px;
+}
+
+
+.address{
+    position: relative;
+}
+.address::before {
+    background-image: url(../image/marker.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    position: absolute;
+    content: "";
+    left: -41px;
+    top: -2px;
+    width: 20px;
+    height: 20px;
+}
+.underground{
+    position: relative;
+}
+.underground::before {
+    background-image: url(../image/metro.png);
+    background-repeat: no-repeat;
+    background-size: 20px 16px;
+    position: absolute;
+    content: "";
+    left: -41px;
+    top: 0px;
+    width: 20px;
+    height: 16px;
+}
+.record{
+    position: relative;
+}
+.record::before{
+    background-image: url(../image/calendar.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    position: absolute;
+    content: "";
+    left: -41px;
+    top: -2px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.grid-swimming-pool-1{
+    margin-bottom: 24px;
+}
+.grid-swimming-pool-2{
+    height: 249px;
+    padding: 12px 45px 29px 46px;
+}
+.grid-swimming-pool-2 ul{
+    margin-bottom: 35px;
+}
+.contacts-btn{
+    margin: 39px 0px 0px -1px;
+    color: #018ABE;
+    background-color: #FFFFFF;
+    font-family: "ProximaNova", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18.2px;
+    padding: 10px 15px 10px 16px;
+    border-radius: 3px;
+    letter-spacing: 0.21px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+}
+.footer p{
+    font-family: "ProximaNova", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.9px;
+}
+.den-info{
+    font-family: "ProximaNova", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 0.01px;
+}
