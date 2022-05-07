@@ -1,0 +1,184 @@
+
+/*------Шрифты------*/
+@font-face {
+    font-family: "ProximaNova";
+    font-style: normal;
+    font-weight: 300;
+    src: url(../Font/light.ttf);
+}
+@font-face {
+    font-family: "ProximaNova";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/regular.ttf);
+}    
+@font-face {
+    font-family: "ProximaNova";
+    font-style: normal;
+    font-weight: 600;
+    src: url(../font/semibold.ttf);
+}
+@font-face {
+    font-family: "ProximaNova";
+    font-style: normal;
+    font-weight: 700;
+    src: url(../font/bold.ttf);
+}
+
+
+body{
+    background-color: #162831;
+    font-family: 'El Messiri', sans-serif;
+    color: #FFFFFF;
+    margin: 0;
+    padding-left: 18px;
+}
+.width{
+    width: 1298px;
+    margin-bottom: 128px;
+    margin: 0 auto;
+}
+.header{
+    margin-top: 2.33%;
+}
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 21px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.5 );
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0px 0px 7px 5px
+}
+.menu-li{
+    color: #FFFFFF;
+    font-family: 'ProximaNova', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 18.9px;
+    margin-left: 49px;
+    letter-spacing: 0.2942px
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.btn{
+    height: 0px;
+    font-family: 'ProximaNova', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18.2px;
+    background-color: #018ABE;
+    border-radius: 3px;
+    padding: 9px 17px 27px 16px;
+    letter-spacing: 0.12px;
+    margin-left: 54px;
+    margin-top: -8px;
+    margin-right: -1px;
+}
+.header-text{
+    position: relative;
+    margin-top: 4.557%;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 58.8px;
+    text-align: center;
+    margin-bottom: 59px;
+}
+.header-text::before{
+    background-image: url(../image/RectangleBlue1.png);
+    position: absolute;
+    content: "";
+    left: 529px;
+    top: 22px;
+    width: 28px;
+    height: 14px;
+}
+.header-text::after{
+    background-image: url(../image/RectangleBlue2.png);
+    position: absolute;
+    content: "";
+    top: 22px;
+    right: 531px;
+    width: 28px;
+    height: 14px;
+}
+.blog-item{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #018ABE;
+    border-radius: 20px;
+    padding: 50px 60px 48px 60px;
+    margin-bottom: 45px;
+}
+.blog-item img{
+    border-radius: 11px;
+    margin-top: -1px;
+    margin-left: -2px;
+}
+.blog-item-text-data{
+    font-family: "ProximaNova", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    width: 72px;
+    margin-top: -1px;
+    margin-left: 50px;
+    background-color: #018ABE;
+    padding: 6px 12px 5px 12px;
+    border-radius: 5px;
+}
+.blog-item-text-header-text{
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 19px;
+    margin-left: 50px;
+    margin-top: 31px;
+}
+.blog-item-text-text{
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 50px;
+    margin-bottom: 48px;
+}
+.blog-item-text-btn{
+    font-family: "ProximaNova", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    width: 94px;
+    margin-left: 50px;
+    background-color: #018ABE;
+    padding: 11px 20px 11px 19px;
+    border-radius: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 118px;
+    padding-top: 17px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+.footer p{
+    font-family: "ProximaNova", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.9px;
+}
+.den-info{
+    font-family: "ProximaNova", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 0.01px;
+}
