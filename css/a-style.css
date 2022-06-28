@@ -1,0 +1,377 @@
+@media screen and  (max-width: 1760px) {
+    .reviews-text{
+        width: 1670px;
+        left: -221px;
+    }
+    .reviews-block-1{
+        left: 3.5em;
+    }
+    .reviews-block-3{
+        position: relative;
+        left: 2em;
+    }
+}
+@media screen and  (max-width: 1670px) {
+    .reviews-block-2{
+        position: relative;
+        margin-left: -8em;
+        margin-right: -8em;
+        left: -30.6em;
+    }
+    .block-in-shadow{
+        position: relative;
+    }
+    .reviews-block-1{
+        left: 0.2em;
+    }
+    .reviews-block-3{
+        left: 21.8em;
+    }
+    .reviews-text{
+        width: 1298px;
+        left: 0;
+    }
+}
+@media screen and  (max-width: 1330px) {
+    .menu-li{
+        margin-left: 35px;
+    }
+    .wrap{
+        height: unset;
+        padding: 94px 200px;
+    }
+    .wrap h3::before{
+        position: static;
+        display: inline-block;
+        margin-right: 1em;
+    }
+    .wrap h3::after{
+        position: static;
+        display: inline-block;
+        margin-left: 1em;
+    }
+    .header-text::before{
+        position: static;
+        display: inline-block;
+        margin-right: 1em;
+    }
+    .header-text::after{
+        position: static;
+        display: inline-block;
+        margin-left: 1em;
+    }
+    .header-text::before{
+        position: static;
+        display: inline-block;
+        margin-right: 1em;
+    }
+    .header-text::after{
+        position: static;
+        display: inline-block;
+        margin-left: 1em;
+    }
+    .reviews-header-text::before{
+        position: static;
+        display: inline-block;
+        margin-right: 1em;
+    }
+    .reviews-header-text::after{
+        position: static;
+        display: inline-block;
+        margin-left: 1em;
+    }
+    .sessions{
+        margin: 0;
+    }
+    .reviews-text{
+        max-width: 100%;
+    }
+    .reviews-block-1{
+        display: none;
+    }
+    .reviews-block-3{
+        display: none;
+    }
+    .reviews-block-2{
+        width: 516px;
+        margin: 0 auto;
+        position: unset;
+    }
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .grid-box{
+        grid-column-start: 3;
+    }
+    .grid-item-standart{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .grid-item-adaptive{
+        grid-column-start: 2;
+    }
+    .grid-about{
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        height: auto;
+    }
+    .grid-about-item-1{
+        grid-row-start: 2;
+    }
+    .grid-about-text{
+        margin: 0 auto;
+    }
+    .grid-about-img{
+        margin: 0 auto;
+    }
+    .grid-price{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: auto;
+    }
+    .grid-price-list{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .grid-price-list ul{
+        margin-left: 52px;
+        margin-right: 74px;
+    }
+    .grid-price-img {
+        margin: 0 auto;
+    }
+    .grid-contacts{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .grid-map{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        margin: 0 auto;
+    }
+    .grid-swimming-pool-1{
+        grid-row-start: 3;
+        grid-column-start: 1;
+    }
+    .grid-swimming-pool-2{
+        grid-row-start: 4;
+        grid-column-start: 1;
+        margin: 0 auto;
+    }
+    .grid-contacts-text{
+        margin: 12px auto;
+        width: 391px;
+        padding: 12px 29px 40px 30px;
+    }
+}
+@media screen and  (max-width: 930px){
+    .burger-button-label{
+        display: block;
+        left: 1.44em;
+        top: -2px;
+    }
+    .menu-li{
+        margin-left: 50%;
+
+    }
+    nav{
+        display: none;
+        background-color: #18303c;
+        width: 100%;
+        right: 0;
+        top: 95px;
+    }
+    .menu{
+        display: block;
+        margin-left: -4em;
+    }
+    #burger-button:checked ~ nav{
+        position: absolute;
+        display: block;
+    }
+    .wrap{
+        padding: 90px 200px;
+    }
+    .wrap h3{
+        font-size: 18px;
+        line-height: unset;
+        margin-bottom: 15px;
+    }
+    .wrap h1{
+        font-size: 40px;
+        line-height: unset;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .grid-box{
+        margin: 0 auto;
+        grid-column-start: 1;
+        padding-bottom: 10px;
+        padding-top: 0;
+    }
+    .grid-item-standart{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    .grid-item-adaptive{
+        grid-column-start: 1;
+    }
+    .reviews-header {
+        margin-bottom: 0;
+    }
+    .grid-about-img{
+        margin: 0 auto;
+    }
+    .grid-about-text{
+        margin: 0 auto;
+    }
+    .grid-price{
+        height: unset;
+        margin: 0 ;
+    }
+    .grid-price-list{
+        margin: 0 auto;
+    }
+    .grid-price-img{
+        margin: 0 auto;
+    }
+    .grid-contacts{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .grid-map{
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .grid-map img{
+        width: 450px;
+    }
+    
+    .grid-swimming-pool-1{
+        grid-row-start: 2;
+        grid-column-start: 1;
+    }
+    .grid-swimming-pool-2{
+        grid-row-start: 3;
+        grid-column-start: 1;
+    }
+    .grid-contacts-tex{
+        grid-row-start: 2;
+    }
+    .contacts{
+        margin-top: 30px;
+    }
+}
+@media screen and  (max-width: 697px){
+    .wrap{
+        padding: 70px 50px;
+    }
+    .wrap h3{
+        font-size: 20px;
+        margin-left: 14px;
+        max-width: 266px;
+        display: inline-block;
+    }
+    .wrap h3::before{
+        width: 14px;
+        height: 7px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-right: 0.5em;
+    }
+    .wrap h3::after{
+        width: 14px;
+        height: 7px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-left: 0.5em;
+    }
+    .wrap h1{
+        font-size: 30px;
+        margin-left: -15px;
+    }
+    .header-text{
+        font-size: 30px;
+    }
+    .header-text::before{
+        width: 18px;
+        height: 10px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-right: 0.5em;
+    }
+    .header-text::after{
+        width: 18px;
+        height: 12px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-left: 0.5em;
+    }
+    .reviews-header-text::before{
+        width: 18px;
+        height: 10px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-right: 0.5em;
+    }
+    .reviews-header-text::after{
+        width: 18px;
+        height: 11px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-left: 0.5em;
+    }
+    .grid-about-img img{
+        width: 400px;
+    }
+    .grid-price-img img {
+        width: 400px;
+    }
+    .grid-price-list ul{
+        margin-left: -4px;
+        margin-right: 14px;
+    }
+    .grid-map img {
+        width: 400px;
+    }
+    .grid-contacts-text{
+        width: 300px;
+        padding: 12px 50px 40px 50px;
+    }
+}
+@media screen and  (max-width: 552px){
+    .btn{
+        font-size: 10px;
+        padding: 5px 11px 23px 12px;
+    }
+    .wrap{
+        padding: 86px 42px;
+        background-image: url(../image/maquatherapy.jpg);
+    }
+    
+    .hidden > a > img{
+        width: 350px;
+    }
+    .grid-about-img img{
+        width: 350px;
+    }
+    .grid-price-img img {
+        width: 350px;
+    }
+    .grid-map img {
+        width: 350px;
+    }
+    .grid-contacts-text{
+        width: 300px;
+        padding: 12px 25px 40px 25px;
+    }
+}

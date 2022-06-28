@@ -29,11 +29,11 @@ body{
     background-color: #162831;
     font-family: 'El Messiri', sans-serif;
     color: #FFFFFF;
-    width: 100%;
+    max-width: 100%;
     margin: 0;
 }
 .width{
-    width: 1298px;
+    max-width: 1298px;
     margin-bottom: 128px;
     margin: 0 auto;
     padding-left: 15px;
@@ -47,6 +47,46 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+#burger-button{
+    display: none;
+}
+
+.burger-button-label{
+    width: 100px;
+    height: 50px;
+    display: none;
+    color: #fff; 
+    font-size: 50px;
+    position: relative;
+}
+
+.burger-button-label > span,
+.burger-button-label > span::before,
+.burger-button-label > span::after {
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 4px;
+    background-color: #fff;
+}
+
+.burger-button-label > span::before,
+.burger-button-label > span::after{
+    content: '';
+}
+
+.burger-button-label > span::before{
+    transform: translateY(-10px);
+}
+
+.burger-button-label > span::after{
+    transform: translateY(10px);
+}
+
 .menu{
     list-style: none;
     display: flex;
@@ -136,7 +176,7 @@ a{
 }
 .header-text{
     position: relative;
-    margin-top: 11.557%;
+    margin-top: 11.51%;
     font-weight: 700;
     font-size: 42px;
     line-height: 58.8px;
@@ -231,10 +271,12 @@ a{
     font-size: 42px;
     line-height: 58.8px;
     text-align: center;
-    position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 137px;
 }
-.reviews-header::before{
+.reviews-header-text{
+    position: relative;
+}
+.reviews-header-text::before{
     background-image: url(../image/RectangleBlue1.png);
     position: absolute;
     content: "";
@@ -243,7 +285,7 @@ a{
     width: 28px;
     height: 14px;
 }
-.reviews-header::after{
+.reviews-header-text::after{
     background-image: url(../image/RectangleBlue2.png);
     position: absolute;
     content: "";
@@ -257,7 +299,7 @@ a{
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 108.5em;
+    max-width: 108.5em;
     left: -229px;
 }
 .block-in-shadow{
@@ -293,13 +335,11 @@ a{
 .reviews-block-2{
     width: 516px;
     margin: 0 auto;
-    /* margin-left: 3.125em; */
-    /* margin-right: 3.125em; */
-    left: -31.51em;
+    left: 35em;
     background-color: #018ABE;
     padding: 30px 60px 43px 60px;
     border-radius: 10px;
-    position: relative;
+    position: absolute;
 }
 .reviews-block-2 h3{
     font-family: "ProximaNova", sans-serif;
@@ -319,14 +359,14 @@ a{
 .reviews-block-3{
     padding: 24px 45px 48px 45px;
     position: relative;
-    left: 44.7em;
+    left: 27.9em;
 }
 .reviews-block-3 p{
     letter-spacing: -0.08px;
 }
 .review-slider-box{
-    margin-top: 59px;
-    margin-right: 20px;
+    margin-top: 97px;
+    margin-right: 22px;
 }
 .slider-box{
     display: flex;
@@ -356,7 +396,7 @@ a{
     top: 21px;
 }
 .grid-about{
-    width: 1076px;
+    max-width: 1076px;
     height: 865px;
     margin: 0 auto;
     display: grid;
@@ -374,7 +414,7 @@ a{
     line-height: 33.6px;
 }
 .grid-about-text p{
-    width: 466px;
+    max-width: 466px;
     font-family: "ProximaNova", sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -415,7 +455,7 @@ a{
     top: 22px;
 }
 .grid-price{
-    width: 1076px;
+    max-width: 1076px;
     height: 455px;
     margin: 0 auto;
     display: grid;
@@ -436,7 +476,7 @@ a{
     margin-right: -97px;
 }
 .grid-price-list li{
-    width: 378px;
+    max-width: 378px;
     list-style: none;
     margin-bottom: 31px;
     padding: 0;
@@ -494,7 +534,7 @@ a{
     text-align: center;
 }
 .contacts{
-    width: 1296px;
+    max-width: 1296px;
     margin: 0 auto;
     margin-top: 152px;
     margin-left: 0px;
@@ -622,91 +662,5 @@ a{
     line-height: 18.9px;
     letter-spacing: 0.01px;
 }
-@media screen and  (max-width: 1745px) {
-    .reviews-text{
-        width: 1670px;
-        left: -186px;
-    }
-    .reviews-block-1{
-        left: 0.5em;
-    }
-    .reviews-block-3{
-        position: relative;
-        left: 41em;
-    }
-}
 
-@media screen and  (max-width: 1670px) {
-    .reviews-block-2{
-        position: relative;
-        margin-left: -8em;
-        margin-right: -8em;
-        left: -30.6em;
-    }
-    .block-in-shadow{
-        position: relative;
-    }
-    .reviews-block-1{
-        left: 0.2em;
-    }
-    .reviews-block-3{
-        left: 21.8em;
-    }
-    .reviews-text{
-        width: 1298px;
-        left: 0;
-    }
-}
-
-@media screen and  (max-width: 1100px) {
-    .reviews-block-1{
-        display: none;
-    }
-    .reviews-block-3{
-        display: none;
-    }
-    .reviews-block-2{
-        width: 516px;
-        margin: 0 auto;
-        position: unset;
-    }
-    .grid{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-    .grid-box{
-        grid-column-start: 3;
-    }
-    .grid-item-standart{
-        grid-column-start: 2;
-        grid-column-end: 3;
-    }
-    .grid-item-adaptive{
-        grid-column-start: 2;
-    }
-    .grid-contacts{
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-    }
-    .grid-map{
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 1;
-        grid-row-end: 3;
-        margin: 0 auto;
-    }
-    .grid-swimming-pool-1{
-        grid-row-start: 3;
-        grid-column-start: 2;
-    }
-    .grid-swimming-pool-2{
-        grid-row-start: 4;
-        grid-column-start: 2;
-        margin: 0 auto;
-    }
-    .grid-contacts-text{
-        margin: 12px auto;
-        width: 391px;
-    }
-}
 
