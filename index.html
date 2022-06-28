@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
 </head>
 <body>
     <div class="width">
@@ -18,23 +19,42 @@
                 <a href="#" class="home">
                     <img src="image/logo.png" alt="logo" class="logo">
                 </a>
-                <nav>
-                    <ul class="menu">
-                        <li class="menu-li"><a href="index.html">Главная</a></li>
-                        <li class="menu-li"><a href="#sessions">Сеансы</a></li>
-                        <li class="menu-li"><a href="#reviews">Отзывы</a></li>
-                        <li class="menu-li"><a href="#contacts">Контакты</a></li>
-                        <li class="menu-li"><a href="news.html">Новости</a></li>
-                        <li class="menu-li"><a href="#about">Обо мне</a></li>
-                        <li class="menu-li"><a href="blog.html">Блог</a></li>
-                    </ul>
-                </nav>
+                <div class="button">
+                    <input type="checkbox" name="burger-button" id="burger-button" value="0">
+                    <label for="burger-button" class="burger-button-label"><span></span></label>
+                
+                    <nav>
+                        <ul class="menu">
+                            <li class="menu-li"><a href="index.html">Главная</a></li>
+                            <li class="menu-li"><a href="#sessions">Сеансы</a></li>
+                            <li class="menu-li"><a href="#reviews">Отзывы</a></li>
+                            <li class="menu-li"><a href="#contacts">Контакты</a></li>
+                            <li class="menu-li"><a href="news.html">Новости</a></li>
+                            <li class="menu-li"><a href="#about">Обо мне</a></li>
+                            <li class="menu-li"><a href="blog.html">Блог</a></li>
+                        </ul>
+                    </nav>
+                    <script>
+                        document.querySelector('#burger-button').addEventListener('click', () =>{
+                            if (document.querySelector('#burger-button').value === '0') {
+                                document.querySelector('#burger-button').value = '1'
+                            } else {
+                                document.querySelector('#burger-button').value = '0'
+                            }
+                            if (document.querySelector('#burger-button').value === '1') {
+                                document.querySelector('.container').style.marginBottom = '11em'
+                            }else{
+                                document.querySelector('.container').style.marginBottom = '0em'
+                            }
+                        })
+                    </script>
+                </div>
                 <a href="#" class="nav-btn btn">Записаться на сеанс</a>
             </div>
         </div>
         <div class="wrap">
             <h3>Укрепление здоровья</h3>
-            <h1><span>Акватерапия</span> RitmStyle</h1>
+            <h1><span>Акватерапия</span><br> RitmStyle</h1>
         </div>
         <div class="sessions">
             <a name="sessions"></a>
@@ -90,7 +110,7 @@
                 <div class="reviews-position">
                     <a name="reviews"></a>
                     <div class="reviews-header">
-                        <h4 name="reviews">Отзывы</h4>
+                        <h4 class="reviews-header-text">Отзывы</h4>
                     </div>
                     <div class="reviews-text">
                         <div class="reviews-block-1 block-in-shadow">
