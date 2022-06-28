@@ -351,7 +351,7 @@
 @media screen and  (max-width: 552px){
     .btn{
         font-size: 10px;
-        padding: 5px 11px 23px 12px;
+        padding: 5px 4px 23px 4px;
     }
     .wrap{
         padding: 86px 42px;
@@ -360,6 +360,9 @@
     
     .hidden > a > img{
         width: 350px;
+    }
+    .reviews-block-2{
+        padding: 15px 30px 15px 30px;
     }
     .grid-about-img img{
         width: 350px;
@@ -373,5 +376,99 @@
     .grid-contacts-text{
         width: 300px;
         padding: 12px 25px 40px 25px;
+    }
+}
+@media screen and  (max-width: 373px){
+    .burger-button-label{
+        left: 0;
+    }
+    .btn{
+        font-size: 10px;
+        padding: 5px 11px 23px 12px;
+        margin-left: 0;
+    }
+    .wrap{
+        padding: 48px 42px;
+    }
+    .wrap h3{
+        max-width: 200px;
+    margin-left: -22px;
+    }
+    .wrap h3 span{
+        margin-left: 63px;
+    }
+    .wrap h3::before{
+        margin-bottom: -16px;
+    }
+    .wrap h3::after{
+        height: 20px;
+        margin-left: 1em;
+    }
+    .header-text{
+        font-size: 25px;
+    }
+    .reviews-header{
+        font-size: 25px;
+    }
+    .hidden > a > img {
+        width: 300px;
+        height: 200px;
+    }
+    .reviews-block-2 p{
+        font-size: 10px;
+    }
+    .grid-about-text p{
+        font-size: 12px;
+    }
+    .grid-item-standart > .hidden > a > img{
+        height: 447px;
+    }
+    .grid-item-standart p{
+        top: 378px;
+        left: 12px;
+    }
+    .grid-item-standart + .grid-item > .hidden > a > p {
+        top: 134px;
+    }
+    .sessions-name{
+        top: 101px;
+        left: 21px;
+    }
+    .grid-about{
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .grid-about-img{
+        margin: auto;
+    }
+    .grid-about-img > img{
+        width: 300px;
+    }
+    .grid-price-img > img{
+        width: 300px;
+    }
+    .grid-price-list-name li{
+        font-size: 11px;
+    }
+    .grid-price-list-price li{
+        font-size: 11px;
+    }
+    .grid-price-list ul {
+        margin-left: -24px;
+        margin-right: -10px;
+    }
+    .grid-about-item-4{
+        grid-row-start: 4;
+        grid-row-end: 6;
+    }
+    .grid-map > img{
+        width: 300px;
+    }
+    .grid-swimming-pool-1{
+        padding: 12px 25px 40px 25px;
+        width: 250px;
+    }
+    .grid-swimming-pool-2{
+        padding: 12px 25px 40px 25px;
+        width: 250px;
     }
 }
