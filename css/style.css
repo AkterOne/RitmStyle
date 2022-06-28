@@ -51,7 +51,6 @@ body{
 #burger-button{
     display: none;
 }
-
 .burger-button-label{
     width: 100px;
     height: 50px;
@@ -86,13 +85,12 @@ body{
 .burger-button-label > span::after{
     transform: translateY(10px);
 }
-
 .menu{
     list-style: none;
     display: flex;
     justify-content: space-around;
     margin: 0;
-    padding: 0px 0px 7px 5px
+    padding: 0px 0px 7px 5px;
 }
 .menu-li{
     color: #FFFFFF;
@@ -101,7 +99,7 @@ body{
     font-size: 14px;
     line-height: 18.9px;
     margin-left: 49px;
-    letter-spacing: 0.2942px
+    letter-spacing: 0.2942px;
 }
 a{
     text-decoration: none;

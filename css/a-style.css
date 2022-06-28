@@ -174,26 +174,29 @@
     .burger-button-label{
         display: block;
         left: 1.44em;
-        top: -2px;
+        top: -1px;
     }
     .menu-li{
-        margin-left: 50%;
-
+        margin-left: 50px;
+        margin-top: 5px;
     }
     nav{
-        display: none;
+        display: flex;
+        opacity: 0;
         background-color: #18303c;
         width: 100%;
         right: 0;
-        top: 95px;
+        margin-top: 27px;
+        position: absolute;
+        transition: all 0.6s;
     }
     .menu{
-        display: block;
-        margin-left: -4em;
+        display: inherit;
+        margin-left: 5em;
     }
     #burger-button:checked ~ nav{
-        position: absolute;
-        display: block;
+        opacity: 1;
+        
     }
     .wrap{
         padding: 90px 200px;
