@@ -389,6 +389,10 @@
     }
 }
 @media screen and  (max-width: 410px){
+    .menu-li{
+        margin-left: 7px;
+        font-size: 8px;
+    }
     .burger-button-label{
         left: 0;
     }
