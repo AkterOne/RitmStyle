@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/a-blog.css">
 </head>
 <body>
     <div class="width">
@@ -18,17 +19,37 @@
                 <a href="#" class="home">
                     <img src="image/logo.png" alt="logo" class="logo">
                 </a>
-                <nav>
-                    <ul class="menu">
-                        <li class="menu-li"><a href="index.html">Главная</a></li>
-                        <li class="menu-li"><a href="index.html#sessions">Сеансы</a></li>
-                        <li class="menu-li"><a href="index.html#reviews">Отзывы</a></li>
-                        <li class="menu-li"><a href="index.html#contacts">Контакты</a></li>
-                        <li class="menu-li"><a href="news.html">Новости</a></li>
-                        <li class="menu-li"><a href="index.html#about">Обо мне</a></li>
-                        <li class="menu-li"><a href="blog.html">Блог</a></li>
-                    </ul>
-                </nav>
+                <div class="button">
+                    <input type="checkbox" name="burger-button" id="burger-button" value="0">
+                    <label for="burger-button" class="burger-button-label"><span></span></label>
+                    <nav>
+                        <ul class="menu">
+                            <li class="menu-li"><a href="index.html">Главная</a></li>
+                            <li class="menu-li"><a href="index.html#sessions">Сеансы</a></li>
+                            <li class="menu-li"><a href="index.html#reviews">Отзывы</a></li>
+                            <li class="menu-li"><a href="index.html#contacts">Контакты</a></li>
+                            <li class="menu-li"><a href="news.html">Новости</a></li>
+                            <li class="menu-li"><a href="index.html#about">Обо мне</a></li>
+                            <li class="menu-li"><a href="blog.html">Блог</a></li>
+                        </ul>
+                    </nav>
+                    <script>
+                        document.querySelector('#burger-button').addEventListener('click', () =>{
+                            if (document.querySelector('#burger-button').value === '0') {
+                                document.querySelector('#burger-button').value = '1'
+                            } else {
+                                document.querySelector('#burger-button').value = '0'
+                            }
+                            if (document.querySelector('#burger-button').value === '1') {
+                                document.querySelector('.container').style.marginBottom = '4em'
+                                document.querySelector('.container').style.transition = 'all 0.4s'
+                            }else{
+                                document.querySelector('.container').style.marginBottom = '0em'
+                                document.querySelector('.container').style.transition = 'all 0.4s'
+                            }
+                        })
+                    </script>
+                </div>
                 <a href="#" class="nav-btn btn">Записаться на сеанс</a>
             </div>
         </div>
@@ -36,7 +57,9 @@
             <h2 class="header-text">Блог</h2>
             <div class="wrapper">
                 <div class="blog-item">
-                    <img src="image/blog.jpg" alt="preview">
+                    <div class="blog-item-img">
+                        <img src="image/blog.jpg" alt="preview">
+                    </div>                    
                     <div class="blog-item-text">
                         <p class="blog-item-text-data">13.02.2022</p>
                         <h1 class="blog-item-text-header-text">Новый формат сеансов</h1>
@@ -45,7 +68,9 @@
                     </div>
                 </div>
                 <div class="blog-item">
-                    <img src="image/blog.jpg" alt="preview">
+                    <div class="blog-item-img">
+                        <img src="image/blog.jpg" alt="preview">
+                    </div>                    
                     <div class="blog-item-text">
                         <p class="blog-item-text-data">13.02.2022</p>
                         <h1 class="blog-item-text-header-text">Новый формат сеансов</h1>
