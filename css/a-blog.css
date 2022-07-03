@@ -1,0 +1,113 @@
+
+@media screen and  (max-width: 1330px) {
+    .header-text::before{
+        position: relative;
+        display: inline-block;
+        left: -46px;
+        top: 0;
+    }
+    .header-text::after{
+        position: relative;
+        display: inline-block;
+        left: 58px;
+        top: 0;
+    }
+}
+@media screen and  (max-width: 1090px) {
+    .menu-li{
+        margin-left: 30px;
+    }
+    .btn{
+        margin-left: 3px;
+    }
+    .blog-item{
+        display: inline-block;
+    }
+    .blog-item-text-data{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .blog-item-img{
+        max-width: 546px;
+        margin: 0 auto;
+    }
+}
+@media screen and  (max-width: 930px){
+    .burger-button-label{
+        display: block;
+        left: 1.44em;
+        top: -1px;
+    }
+    .menu-li{
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    nav{
+        display: flex;
+        opacity: 0;
+        background-color: #18303c;
+        width: 100%;
+        right: 0;
+        margin-top: 27px;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .menu{
+        display: inherit;
+        margin: 5px auto 0 auto;
+    }
+    #burger-button:checked ~ nav{
+        opacity: 1;
+        
+    }
+    .blog-item-text-header-text{
+        font-size: 20px;
+    }
+    .blog-item-text-text{
+        font-size: 12px;
+    }
+}
+@media screen and  (max-width: 697px){
+    .menu-li{
+        margin-left: 20px;
+    }
+    .blog-item-img{
+        max-width: 400px;
+    }
+    .blog-item-img img{
+        width: 400px;
+    }
+}
+@media screen and  (max-width: 560px){
+    .menu-li{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .btn{
+        font-size: 10px;
+        padding: 5px 4px 23px 4px;
+    }
+    .blog-item{
+        padding: 25px 30px 24px 30px;
+    }
+    .blog-item-img{
+        max-width: 300px;
+    }
+    .blog-item-img img{
+        width: 300px;
+    }
+}
+@media screen and  (max-width: 410px){
+    .menu-li{
+        margin-left: 7px;
+        font-size: 8px;
+    }
+    .burger-button-label{
+        left: 0;
+    }
+    .btn{
+        font-size: 10px;
+        padding: 5px 11px 23px 12px;
+        margin-left: 0;
+    }
+}
