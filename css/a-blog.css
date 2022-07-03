@@ -36,6 +36,9 @@
         max-width: 546px;
         margin: 0 auto;
     }
+    .blog-item-text-btn{
+        margin-left: 35%;
+    }
 }
 @media screen and  (max-width: 930px){
     .burger-button-label{
@@ -129,5 +132,8 @@
     }
     .blog-item-text-text{
         font-size: 10px;
+    }
+    .blog-item-text-btn{
+        margin-left: 30%;
     }
 }
